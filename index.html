@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crazy Emerald Tech</title>
+  <h1>This site was created by Crazy Emerald AI (beta)</h1>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #00ffc8, #8c52ff, #ff5f7e);
+      font-family: 'Fredoka', sans-serif;
+      color: white;
+      animation: bgShift 15s infinite alternate;
+      overflow-x: hidden;
+    }
+
+    @keyframes bgShift {
+      0% {background-position: 0 0;}
+      100% {background-position: 100% 100%;}
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    h1 {
+      font-family: 'Rubik Scribble', cursive;
+      font-size: 3.5rem;
+      text-shadow: 3px 3px 0 #00ffcc, -3px -3px 0 #ff00cc;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% {transform: translateY(0);}
+      50% {transform: translateY(-12px);}
+    }
+
+    .tagline {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      color: #ffffffcc;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 18px;
+      box-shadow: 0 0 20px #0004;
+      backdrop-filter: blur(10px);
+      margin-bottom: 2rem;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffeb3b;
+    }
+
+    .section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .emoji {
+      font-size: 1.6rem;
+      margin-right: 0.5rem;
+      animation: wiggle 3s infinite ease-in-out;
+      display: inline-block;
+    }
+
+    @keyframes wiggle {
+      0%, 100% {transform: rotate(0deg);}
+      50% {transform: rotate(15deg);}
+    }
+
+    a {
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 1rem;
+      color: #ffffffaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌈 Crazy Emerald Tech</h1>
+    <div class="tagline">Creative code, bold ideas, and next-gen web projects</div>
+  </header>
+
+  <div class="section">
+    <h2><span class="emoji">💡</span>About CE Tech</h2>
+    <p>
+      <strong>Crazy Emerald Tech</strong> (CE Tech) is a small but ambitious team passionate about building interactive, useful, and sometimes experimental web applications. We love turning bold ideas into real-world tools and experiences using modern web technologies like HTML5, JavaScript, Node.js, and WebSockets.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2><span class="emoji">📁</span>Highlighted Projects</h2>
+    <p>
+      🔸 <a href="https://textce-github-io.onrender.com/" target="_blank">TextCE</a> – A fast, real-time group chat app where each user is auto-assigned a unique color. Built to handle multiple users per server.<br><br>
+      🔸 <a href="https://sites.google.com/view/kidconnect-official" target="_blank">KidConnect</a> – A school-safe social network for students, designed for creativity, safety, and connection.<br><br>
+      🔸 More projects are currently in development — expect games, AI tools, location-based music apps, and creative experiments!
+    </p>
+  </div>
+
+  <div class="section">
+    <h2><span class="emoji">⚙️</span>How We Work</h2>
+    <p>
+      CE Tech focuses on speed, creativity, and flexibility. We host on platforms like GitHub Pages and Glitch, using databases like <code>@glitch/db</code> for simplicity and performance. Our workflow is powered by curiosity and a drive to make the web more interactive and fun.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 Crazy Emerald Tech (CE Tech) | Web Projects with Energy ⚡
+  </footer>
+</body>
+</html>
